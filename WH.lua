@@ -28,9 +28,9 @@ function main()
 					local string, color, vposX, vposY, vposZ, distance, ignoreWalls, playerId, vehicleId = sampGet3dTextInfoById(a)
 					local X, Y, Z = getCharCoordinates(PLAYER_PED)
 					local distances = getDistanceBetweenCoords2d(vposX, vposY, X, Y)
-					if isPointOnScreen(vposX, vposY, vposZ, 0.0) and string.find(string, "Шкатулка тьмы") and distances > 1.0 then
+					if isPointOnScreen(vposX, vposY, vposZ, 0.0) and string.find(string, "РЁРєР°С‚СѓР»РєР° С‚СЊРјС‹") and distances > 1.0 then
 						local wposX, wposY = convert3DCoordsToScreen(vposX, vposY, vposZ)
-						renderFontDrawText(font, ff .. "Шкатулка", wposX, wposY, color)
+						renderFontDrawText(font, ff .. "РЁРєР°С‚СѓР»РєР°", wposX, wposY, color)
 					end
 				end
 			end
