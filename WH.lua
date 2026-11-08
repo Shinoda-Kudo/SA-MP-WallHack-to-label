@@ -1,5 +1,5 @@
 script_author("KuDo")
-script_name("[ARZ]WH for HW26")
+script_name("[ARZ] label WH")
 script_version('v0.01')
 
 local ff = "{ff0000}[WH]{FFFFFF}"
